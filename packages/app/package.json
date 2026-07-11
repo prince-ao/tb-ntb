@@ -1,6 +1,6 @@
 {
   "name": "@tb-ntb/app",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "private": true,
   "type": "module",
   "description": "Static web app: loads metros.json and runs the model live in the browser.",

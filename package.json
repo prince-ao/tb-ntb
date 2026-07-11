@@ -1,6 +1,6 @@
 {
   "name": "tb-ntb",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "private": true,
   "description": "buy vs. rent longitudinal tool — monorepo root.",
   "workspaces": [
