@@ -1,0 +1,32 @@
+# INFRA: continuous integration — runs on every push/PR to catch breakage. Cross-cutting (INFRA
+# owns it). The pipeline suite + fixture check are wired; the rest land as their segments do.
+name: ci
+
+on:
+  push: { branches: [main] }
+  pull_request: {}
+
+jobs:
+  pipeline:
+    name: Pipeline (Python) + contract fixture
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install pipeline deps
+        run: pip install -r pipeline/requirements-dev.txt
+      - name: Pipeline tests
+        run: python -m pytest pipeline/tests
+      - name: Validate the committed fixture against the schema
+        run: |
+          python -c "import json, jsonschema; \
+            jsonschema.validate(json.load(open('contract/metros.sample.json')), \
+                                json.load(open('contract/metros.schema.json'))); \
+            print('contract/metros.sample.json validates against the schema')"
+
+  # Pending — deliberately not stubbed green:
+  # - MODEL/APP: TypeScript model + app tests, once those packages have a test runner.
+  # - INFRA: the LID coherence check (every @spec ID resolves, cited specs have tests, no dangling
+  #          IDs) once the coherence-check script exists — see CLAUDE.md § LID Tooling.

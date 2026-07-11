@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* FT/Economist data-journalism palette — light only, chosen (not defaulted) warm neutrals */
+:root {
+  --paper: #f7f4ee;
+  --panel: #fffdf9;
+  --ink: #201c16;
+  --ink-2: #5c574e;
+  --ink-3: #928c80;
+  --hair: #ddd7ca;
+  --hair-2: #c7c0b1;
+  /* Hannah, buys */
+  --alice: #2f6db5;
+  /* Ryan, rents */
+  --alice-soft: rgba(47, 109, 181, 0.13);
+  --bob: #c65a3a;
+  --bob-soft: rgba(198, 90, 58, 0.13);
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-variant-numeric: tabular-nums;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* the bespoke chart's labels/annotations use the sans voice */
+svg.chart text {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* native range input, styled to match (used inside the shadcn Slider fallback is Radix) */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+    animation: none !important;
+  }
+}

@@ -1,0 +1,17 @@
+# Node
+node_modules/
+dist/
+*.tsbuildinfo
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+
+# Generated data (the pipeline emits this; delivery mechanism is an INFRA decision).
+# Uncomment if metros.json is published as an artifact rather than committed:
+# /metros.json

@@ -1,0 +1,6 @@
+# Data pipeline dependencies. Pinning happens in the PIPE segment.
+pandas
+requests
+pyyaml
+jsonschema        # validate emitted metros.json against contract/metros.schema.json
+openpyxl          # read the Freddie Mac PMMS historicalweeklydata.xlsx

@@ -1,0 +1,55 @@
+# Config-driven ETL source registry (contract v5). The runner reads this to know what to fetch,
+# how to reshape it, and how it lands in metros.json. Adding/swapping a source is a config edit
+# plus, at most, a named adapter for a genuinely new shape. See agent-docs/llds/data-pipeline.md.
+#
+# URLs verified 2026-07 (ZHVI/ZORI smoothed metro CSVs; PMMS historicalweeklydata.xlsx; BLS CPI).
+# Re-verify before the first cron (Zillow occasionally renames its research CSVs).
+
+schema_version: "5.0.0" # must equal contract/metros.schema.json's schemaVersion
+
+sources:
+  home_values:
+    provider: zillow_zhvi
+    kind: wide_csv # one row per metro, one column per month
+    url: "https://files.zillowstatic.com/research/public_csvs/zhvi/Metro_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_month.csv"
+    value_kind: homeValue # plausibility band + emit target (P0)
+    emit_as: homeValue
+
+  rents:
+    provider: zillow_zori
+    kind: wide_csv
+    url: "https://files.zillowstatic.com/research/public_csvs/zori/Metro_zori_uc_sfrcondomfr_sm_month.csv"
+    value_kind: monthlyRent # R0
+    emit_as: monthlyRent
+
+  mortgage_rate:
+    provider: freddie_pmms
+    kind: single_value # PMMS xlsx -> latest 30-yr & 15-yr FRM (percent -> decimal)
+    url: "https://www.freddiemac.com/pmms/docs/historicalweeklydata.xlsx"
+    emit_as: mortgageRate # -> defaults.mortgageRate.{30,15}
+
+  inflation:
+    provider: bls_cpi
+    kind: yoy_rate # monthly index -> latest year-over-year change
+    url: "https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SA0" # append ?startyear&endyear at fetch
+    series: "CUUR0000SA0" # CPI-U, US city average, all items, NSA
+    emit_as: currentInflation # -> defaults.currentInflation (fetched YoY)
+
+  property_tax:
+    provider: lincoln_institute
+    kind: per_state_lookup
+    path: "pipeline/config/state_tax_rates.yaml" # committed 50-state table (Lincoln study)
+    key: state
+    asOf: "2024" # Lincoln 50-State Property Tax Comparison Study year
+    emit_as: propertyTaxRate
+
+  defaults:
+    provider: authored # user-supplied priors — the pipeline serializes, never guesses
+    kind: static_values
+    path: "pipeline/config/defaults.yaml"
+
+# Coverage = intersection of home_values AND rents AND a property_tax entry for the metro's
+# primary state. Discovered at runtime; not a hand-picked list. mortgage_rate and inflation are
+# global (per-run), not coverage gates.
+coverage:
+  require_all_of: ["home_values", "rents", "property_tax"]

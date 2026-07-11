@@ -1,0 +1,88 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://tb-ntb/contract/metros.schema.json",
+  "title": "metros.json — the data contract between the ETL pipeline and the app",
+  "description": "One static file per ETL run (schema v5). Carries the model's inputs — per-metro observed facts and a global `defaults` block of per-run inputs — plus source provenance. Carries NO model outputs, NO derived values (e.g. price-to-rent), and NO fixed model constants (those live in MODEL). The pipeline is the sole generator. See agent-docs/high-level-design.md.",
+  "type": "object",
+  "required": ["schemaVersion", "generatedAt", "sources", "defaults", "metros"],
+  "additionalProperties": false,
+  "properties": {
+    "schemaVersion": {
+      "type": "string",
+      "description": "Semver of this contract. Bumping the major is a coordinated cascade to PIPE and APP.",
+      "examples": ["5.0.0"]
+    },
+    "generatedAt": {
+      "type": "string",
+      "format": "date",
+      "description": "Date the pipeline produced this file (UTC)."
+    },
+    "sources": {
+      "type": "object",
+      "description": "Provenance for each input, so the app can show honest 'as of' dates.",
+      "required": ["homeValues", "rents", "mortgageRate", "propertyTax"],
+      "additionalProperties": false,
+      "properties": {
+        "homeValues": { "$ref": "#/$defs/source" },
+        "rents": { "$ref": "#/$defs/source" },
+        "mortgageRate": { "$ref": "#/$defs/source" },
+        "propertyTax": { "$ref": "#/$defs/source" }
+      }
+    },
+    "defaults": { "$ref": "#/$defs/defaults" },
+    "metros": {
+      "type": "array",
+      "description": "The covered metro set = intersection of good ZHVI, good ZORI, and a state tax rate. Discovered by the pipeline, not hand-picked.",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/metro" }
+    }
+  },
+  "$defs": {
+    "source": {
+      "type": "object",
+      "required": ["name", "asOf"],
+      "additionalProperties": false,
+      "properties": {
+        "name": { "type": "string", "examples": ["Zillow ZHVI", "Freddie Mac PMMS"] },
+        "asOf": { "type": "string", "description": "Date or period the input reflects.", "examples": ["2026-06-30", "2026"] }
+      }
+    },
+    "metro": {
+      "type": "object",
+      "required": ["slug", "regionId", "name", "state", "homeValue", "monthlyRent", "propertyTaxRate"],
+      "additionalProperties": false,
+      "properties": {
+        "slug": { "type": "string", "description": "Human-readable, URL-safe deep-link key derived from the metro's city and state (e.g. austin-tx). Unique within the file.", "pattern": "^[a-z0-9-]+$" },
+        "regionId": { "type": "string", "description": "Zillow RegionID — stable join key across ZHVI and ZORI." },
+        "name": { "type": "string", "examples": ["Austin, TX"] },
+        "state": { "type": "string", "description": "Two-letter USPS code; selects the property tax rate.", "pattern": "^[A-Z]{2}$" },
+        "homeValue": { "type": "number", "description": "P0 — current typical home value, USD (Zillow ZHVI).", "exclusiveMinimum": 0 },
+        "monthlyRent": { "type": "number", "description": "R0 — current typical monthly rent, USD (Zillow ZORI).", "exclusiveMinimum": 0 },
+        "propertyTaxRate": { "type": "number", "description": "Effective annual property tax rate for this metro's state, as a decimal.", "minimum": 0, "maximum": 1 }
+      }
+    },
+    "defaults": {
+      "type": "object",
+      "description": "The model's per-run inputs (v3). The pipeline fills the values; the schema bounds their shape. Field names are a joint sub-contract with the MODEL segment. Fixed constants (2% anchor, convergence, mortgage premium) live in MODEL, not here.",
+      "required": ["downPaymentFraction", "insuranceRate", "maintenanceRate", "closingCostRate", "sellingCostRate", "horizonYears", "investmentReturn", "appreciationSpread", "rentGrowthSpread", "refiRateDropThreshold", "refiCostRate", "securityDepositMonths", "applicationFee", "currentInflation", "mortgageRate"],
+      "additionalProperties": false,
+      "properties": {
+        "downPaymentFraction": { "type": "number", "minimum": 0, "maximum": 1 },
+        "insuranceRate": { "type": "number", "minimum": 0, "maximum": 1 },
+        "maintenanceRate": { "type": "number", "minimum": 0, "maximum": 1 },
+        "closingCostRate": { "type": "number", "minimum": 0, "maximum": 1 },
+        "sellingCostRate": { "type": "number", "minimum": 0, "maximum": 1 },
+        "horizonYears": { "type": "integer", "minimum": 1 },
+        "investmentReturn": { "type": "number", "minimum": 0, "maximum": 1 },
+        "appreciationSpread": { "type": "number", "description": "Spread over inflation; may be negative." },
+        "rentGrowthSpread": { "type": "number", "description": "Spread over inflation; may be negative." },
+        "refiRateDropThreshold": { "type": "number", "minimum": 0 },
+        "refiCostRate": { "type": "number", "minimum": 0 },
+        "securityDepositMonths": { "type": "number", "minimum": 0, "description": "Renter's security deposit in months of rent; deposit = securityDepositMonths × monthlyRent. Recoverable (returned at the horizon)." },
+        "applicationFee": { "type": "number", "minimum": 0, "description": "Flat rent application fee, USD. Sunk (non-recoverable)." },
+        "currentInflation": { "type": "number", "description": "Current inflation reading (scalar). May be negative (deflation). Non-dialable; the model gravitates it to a fixed 2% anchor." },
+        "mortgageRate": { "type": "object", "description": "Term-indexed origination rates (v5): today's 30-yr and 15-yr rates. The app flattens to a scalar for the chosen preset; the model amortizes the payment itself.", "required": ["30", "15"], "additionalProperties": false, "properties": { "30": { "type": "number", "minimum": 0 }, "15": { "type": "number", "minimum": 0 } } }
+      }
+    }
+  }
+}

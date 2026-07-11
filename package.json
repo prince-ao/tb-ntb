@@ -1,0 +1,31 @@
+{
+  "name": "tb-ntb",
+  "version": "0.0.0",
+  "private": true,
+  "description": "buy vs. rent longitudinal tool — monorepo root.",
+  "workspaces": [
+    "packages/*",
+    "contract"
+  ],
+  "scripts": {
+    "setup": "npm install && bash scripts/py.sh --version",
+
+    "dev": "npm run dev -w @tb-ntb/app",
+    "build": "npm run build -w @tb-ntb/app",
+    "preview": "npm run preview -w @tb-ntb/app",
+    "typecheck": "npm run typecheck -w @tb-ntb/app",
+
+    "model": "tsx scripts/run-model.ts",
+    "pipeline": "bash scripts/py.sh -m pipeline",
+
+    "test": "npm run test:js && npm run test:pipeline",
+    "test:js": "npm test --workspaces --if-present",
+    "test:app": "npm test -w @tb-ntb/app",
+    "test:model": "npm test -w @tb-ntb/model",
+    "test:contract": "npm test -w @tb-ntb/contract",
+    "test:pipeline": "bash scripts/py.sh -m pytest pipeline/tests"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "@tb-ntb/contract",
+  "version": "0.0.0",
+  "private": true,
+  "description": "The metros.json data contract: schema, sample fixture, and conformance tests.",
+  "type": "module",
+  "scripts": {
+    "test": "node --import tsx --test *.test.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1",
+    "tsx": "^4.19.2"
+  }
+}

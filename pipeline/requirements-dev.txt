@@ -1,0 +1,3 @@
+# Dev/test dependencies for the pipeline. Runtime deps are in requirements.txt.
+-r requirements.txt
+pytest

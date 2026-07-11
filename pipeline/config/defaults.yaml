@@ -1,0 +1,18 @@
+# The model's per-run assumption defaults — user-authored priors the pipeline serializes
+# verbatim into metros.json's `defaults` block (contract v5). NOT guessed by the pipeline.
+# `mortgageRate` (both terms) and `currentInflation` are NOT here: observed (PMMS / BLS) at runtime.
+#
+# Field names/bounds are the joint SCHEMA/MODEL sub-contract (see contract/metros.schema.json).
+downPaymentFraction: 0.20   # 20% down
+insuranceRate: 0.004        # 0.4%/yr of home value
+maintenanceRate: 0.02       # 2%/yr of home value
+closingCostRate: 0.03       # 3% of price
+sellingCostRate: 0.08       # 8% of sale price
+horizonYears: 12            # project 12 years
+investmentReturn: 0.10      # 10%/yr on invested capital (renter's opportunity cost)
+appreciationSpread: 0.005   # appreciation = inflation + 0.5%
+rentGrowthSpread: 0.01      # rent growth = inflation + 1%
+refiRateDropThreshold: 0.01 # refi when the market rate is >= 1.0pt below the locked rate ("1% rule")
+refiCostRate: 0.03          # refi cost = 3% of the outstanding balance
+securityDepositMonths: 1.5  # renter deposit = 1.5 x monthlyRent; recoverable at the horizon
+applicationFee: 75          # flat rent application fee, USD; sunk (non-recoverable)

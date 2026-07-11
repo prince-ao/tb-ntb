@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "5.0.0",
+  "generatedAt": "2026-07-01",
+  "sources": {
+    "homeValues": { "name": "Zillow ZHVI (sample — not real)", "asOf": "2026-06-30" },
+    "rents": { "name": "Zillow ZORI (sample — not real)", "asOf": "2026-06-30" },
+    "mortgageRate": { "name": "Freddie Mac PMMS (sample — not real)", "asOf": "2026-06-27" },
+    "propertyTax": { "name": "Hardcoded per-state effective rates (sample)", "asOf": "2026" }
+  },
+  "defaults": {
+    "downPaymentFraction": 0.20,
+    "insuranceRate": 0.005,
+    "maintenanceRate": 0.010,
+    "closingCostRate": 0.03,
+    "sellingCostRate": 0.06,
+    "horizonYears": 10,
+    "investmentReturn": 0.06,
+    "appreciationSpread": 0.01,
+    "rentGrowthSpread": 0.01,
+    "refiRateDropThreshold": 0.01,
+    "refiCostRate": 0.02,
+    "securityDepositMonths": 1.5,
+    "applicationFee": 50,
+    "currentInflation": 0.02,
+    "mortgageRate": { "30": 0.068, "15": 0.061 }
+  },
+  "metros": [
+    {
+      "slug": "austin-tx",
+      "regionId": "394913",
+      "name": "Austin, TX",
+      "state": "TX",
+      "homeValue": 450000,
+      "monthlyRent": 1850,
+      "propertyTaxRate": 0.017
+    },
+    {
+      "slug": "san-francisco-ca",
+      "regionId": "753899",
+      "name": "San Francisco, CA",
+      "state": "CA",
+      "homeValue": 1150000,
+      "monthlyRent": 3400,
+      "propertyTaxRate": 0.007
+    },
+    {
+      "slug": "cleveland-oh",
+      "regionId": "394347",
+      "name": "Cleveland, OH",
+      "state": "OH",
+      "homeValue": 215000,
+      "monthlyRent": 1500,
+      "propertyTaxRate": 0.016
+    }
+  ]
+}

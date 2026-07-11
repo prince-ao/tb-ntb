@@ -1,0 +1,56 @@
+# Effective residential property-tax rate by state, as a decimal.
+# Source: Lincoln Institute of Land Policy / Minnesota Center for Fiscal Excellence,
+# "50-State Property Tax Comparison Study," Appendix Table 2a — Homestead Property Taxes for the
+# Largest City in Each State, Median-Valued Homes. Value = the "Rate (%)" column / 100.
+# Largest city per state (IL -> Chicago, NY -> New York City; secondary cities skipped).
+# DC and territories are intentionally excluded (50 states only) — they log as coverage drops.
+AL: 0.00540  # Huntsville
+AK: 0.01107  # Anchorage
+AZ: 0.00969  # Phoenix
+AR: 0.01132  # Little Rock
+CA: 0.01191  # Los Angeles
+CO: 0.00519  # Denver
+CT: 0.01940  # Bridgeport
+DE: 0.01184  # Wilmington
+FL: 0.01436  # Jacksonville
+GA: 0.00838  # Atlanta
+HI: 0.00298  # Honolulu
+ID: 0.00611  # Boise
+IL: 0.01502  # Chicago
+IN: 0.01204  # Indianapolis
+IA: 0.01702  # Des Moines
+KS: 0.01107  # Wichita
+KY: 0.01192  # Louisville
+LA: 0.00873  # New Orleans
+ME: 0.01283  # Portland
+MD: 0.02142  # Baltimore
+MA: 0.00490  # Boston
+MI: 0.03019  # Detroit
+MN: 0.01250  # Minneapolis
+MS: 0.01269  # Jackson
+MO: 0.01369  # Kansas City
+MT: 0.00728  # Billings
+NE: 0.01780  # Omaha
+NV: 0.01138  # Las Vegas
+NH: 0.01478  # Manchester
+NJ: 0.02124  # Newark
+NM: 0.01416  # Albuquerque
+NY: 0.01249  # New York City
+NC: 0.00702  # Charlotte
+ND: 0.01224  # Fargo
+OH: 0.01025  # Columbus
+OK: 0.01313  # Oklahoma City
+OR: 0.02593  # Portland
+PA: 0.00850  # Philadelphia
+RI: 0.00859  # Providence
+SC: 0.00494  # Charleston
+SD: 0.01233  # Sioux Falls
+TN: 0.00581  # Nashville
+TX: 0.01346  # Houston
+UT: 0.00517  # Salt Lake City
+VT: 0.02316  # Burlington
+VA: 0.00749  # Virginia Beach
+WA: 0.00768  # Seattle
+WV: 0.00863  # Charleston
+WI: 0.01781  # Milwaukee
+WY: 0.00638  # Cheyenne

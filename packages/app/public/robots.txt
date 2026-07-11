@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://prince-ao.github.io/tb-ntb/sitemap.xml

@@ -1,0 +1,16 @@
+{
+  "name": "@tb-ntb/model",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Pure rent-vs-buy financial model. No I/O; runs in the browser.",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "vitest": "^2.1.9"
+  }
+}
