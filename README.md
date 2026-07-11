@@ -1,14 +1,10 @@
 <p align="center">
-  <img src="packages/app/public/logo.png" alt="To Buy, or Not to Buy" width="112" />
+  <img src="packages/app/public/github-logo.png" alt="To Buy, or Not to Buy" width="112" />
 </p>
 
 <h1 align="center">To Buy, or Not to Buy</h1>
 
-<p align="center">
-  Whether buying or renting builds more net worth over the next 1&ndash;10 years &mdash; under assumptions you can see and move.
-</p>
-
-## What is To Buy, or Not to Buy?
+## What is _To Buy, or Not to Buy_?
 
 Pick a US metro. The tool shows whether buying a home or renting one builds more net
 worth over the next 1&ndash;10 years, year by year, under assumptions you can see and
@@ -39,4 +35,4 @@ This repository is built with **[LID: Linked-Intent Development](https://github.
 
 ## License
 
-_To Buy, or Not to Buy?_ is licensed under the terms of the MIT license. See [LICENSE](https://github.com/prince-ao/tb-ntb/blob/main/LICENSE) for more information.
+_To Buy, or Not to Buy_ is licensed under the terms of the MIT license. See [LICENSE](https://github.com/prince-ao/tb-ntb/blob/main/LICENSE) for more information.
