@@ -1,6 +1,6 @@
 {
   "schemaVersion": "5.0.0",
-  "generatedAt": "2026-08-17",
+  "generatedAt": "2026-08-24",
   "sources": {
     "homeValues": {
       "name": "Zillow ZHVI",
@@ -12,7 +12,7 @@
     },
     "mortgageRate": {
       "name": "Freddie Mac PMMS",
-      "asOf": "2026-08-13"
+      "asOf": "2026-08-20"
     },
     "propertyTax": {
       "name": "Lincoln Institute (50-State Property Tax Comparison Study)",
@@ -34,8 +34,8 @@
     "securityDepositMonths": 1.5,
     "applicationFee": 75,
     "mortgageRate": {
-      "30": 0.0667,
-      "15": 0.0596
+      "30": 0.0665,
+      "15": 0.059500000000000004
     },
     "currentInflation": 0.03364825041479902
   },
