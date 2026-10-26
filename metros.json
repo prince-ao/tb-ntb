@@ -1,6 +1,6 @@
 {
   "schemaVersion": "5.0.0",
-  "generatedAt": "2026-10-19",
+  "generatedAt": "2026-10-26",
   "sources": {
     "homeValues": {
       "name": "Zillow ZHVI",
@@ -12,7 +12,7 @@
     },
     "mortgageRate": {
       "name": "Freddie Mac PMMS",
-      "asOf": "2026-10-15"
+      "asOf": "2026-10-22"
     },
     "propertyTax": {
       "name": "Lincoln Institute (50-State Property Tax Comparison Study)",
@@ -34,8 +34,8 @@
     "securityDepositMonths": 1.5,
     "applicationFee": 75,
     "mortgageRate": {
-      "30": 0.07400000000000001,
-      "15": 0.06709999999999999
+      "30": 0.0732,
+      "15": 0.0668
     },
     "currentInflation": 0.03737684729064039
   },
@@ -45,8 +45,8 @@
       "regionId": "394297",
       "name": "Aberdeen, SD",
       "state": "SD",
-      "homeValue": 242518.16625495895,
-      "monthlyRent": 1083.2182539682535,
+      "homeValue": 242518.16625495898,
+      "monthlyRent": 1083.2182539682537,
       "propertyTaxRate": 0.01233
     },
     {
@@ -54,7 +54,7 @@
       "regionId": "394298",
       "name": "Aberdeen, WA",
       "state": "WA",
-      "homeValue": 314068.6090155352,
+      "homeValue": 314068.60901553516,
       "monthlyRent": 1487.1426573426572,
       "propertyTaxRate": 0.00768
     },
@@ -81,8 +81,8 @@
       "regionId": "394302",
       "name": "Adrian, MI",
       "state": "MI",
-      "homeValue": 242906.26459944237,
-      "monthlyRent": 1006.5277777777776,
+      "homeValue": 242906.26459944234,
+      "monthlyRent": 1006.5277777777777,
       "propertyTaxRate": 0.03019
     },
     {
@@ -90,7 +90,7 @@
       "regionId": "394304",
       "name": "Akron, OH",
       "state": "OH",
-      "homeValue": 240089.0414164717,
+      "homeValue": 240089.04141647174,
       "monthlyRent": 1306.334856551316,
       "propertyTaxRate": 0.01025
     },
@@ -127,7 +127,7 @@
       "name": "Albany, OR",
       "state": "OR",
       "homeValue": 408251.67127499,
-      "monthlyRent": 1634.97311827957,
+      "monthlyRent": 1634.9731182795701,
       "propertyTaxRate": 0.02593
     },
     {
@@ -145,7 +145,7 @@
       "name": "Albert Lea, MN",
       "state": "MN",
       "homeValue": 197426.3687475482,
-      "monthlyRent": 1053.809523809524,
+      "monthlyRent": 1053.8095238095239,
       "propertyTaxRate": 0.0125
     },
     {
@@ -172,7 +172,7 @@
       "name": "Alexandria, LA",
       "state": "LA",
       "homeValue": 171698.7625641754,
-      "monthlyRent": 1028.5021645021643,
+      "monthlyRent": 1028.5021645021645,
       "propertyTaxRate": 0.00873
     },
     {
@@ -207,7 +207,7 @@
       "regionId": "394322",
       "name": "Altus, OK",
       "state": "OK",
-      "homeValue": 114718.94591544683,
+      "homeValue": 114718.94591544685,
       "monthlyRent": 943.3333333333334,
       "propertyTaxRate": 0.01313
     },
@@ -217,7 +217,7 @@
       "name": "Amarillo, TX",
       "state": "TX",
       "homeValue": 219579.02147203148,
-      "monthlyRent": 1309.150881248912,
+      "monthlyRent": 1309.1508812489121,
       "propertyTaxRate": 0.01346
     },
     {
@@ -252,7 +252,7 @@
       "regionId": "394327",
       "name": "Anchorage, AK",
       "state": "AK",
-      "homeValue": 424607.3139387282,
+      "homeValue": 424607.31393872824,
       "monthlyRent": 1890.4255625879043,
       "propertyTaxRate": 0.01107
     },
@@ -270,8 +270,8 @@
       "regionId": "394332",
       "name": "Ann Arbor, MI",
       "state": "MI",
-      "homeValue": 411984.6981677554,
-      "monthlyRent": 1916.5685477784536,
+      "homeValue": 411984.69816775544,
+      "monthlyRent": 1916.5685477784539,
       "propertyTaxRate": 0.03019
     },
     {
@@ -280,7 +280,7 @@
       "name": "Anniston, AL",
       "state": "AL",
       "homeValue": 170423.49704170224,
-      "monthlyRent": 964.9215686274508,
+      "monthlyRent": 964.9215686274509,
       "propertyTaxRate": 0.0054
     },
     {
@@ -297,8 +297,8 @@
       "regionId": "394335",
       "name": "Arcadia, FL",
       "state": "FL",
-      "homeValue": 250159.0286002456,
-      "monthlyRent": 1524.1666666666663,
+      "homeValue": 250159.02860024557,
+      "monthlyRent": 1524.1666666666665,
       "propertyTaxRate": 0.01436
     },
     {
@@ -325,7 +325,7 @@
       "name": "Ashland, OH",
       "state": "OH",
       "homeValue": 244539.51034891323,
-      "monthlyRent": 962.1190476190476,
+      "monthlyRent": 962.1190476190477,
       "propertyTaxRate": 0.01025
     },
     {
@@ -423,7 +423,7 @@
       "regionId": "394350",
       "name": "Auburn, NY",
       "state": "NY",
-      "homeValue": 235019.54837399215,
+      "homeValue": 235019.54837399218,
       "monthlyRent": 1428.4722222222224,
       "propertyTaxRate": 0.01249
     },
@@ -450,7 +450,7 @@
       "regionId": "394354",
       "name": "Austin, MN",
       "state": "MN",
-      "homeValue": 201982.52114670517,
+      "homeValue": 201982.52114670514,
       "monthlyRent": 1160.688888888889,
       "propertyTaxRate": 0.0125
     },
@@ -540,7 +540,7 @@
       "regionId": "394363",
       "name": "Bartlesville, OK",
       "state": "OK",
-      "homeValue": 185332.09043361625,
+      "homeValue": 185332.09043361622,
       "monthlyRent": 1285.547619047619,
       "propertyTaxRate": 0.01313
     },
@@ -549,7 +549,7 @@
       "regionId": "394367",
       "name": "Baton Rouge, LA",
       "state": "LA",
-      "homeValue": 246247.21720707972,
+      "homeValue": 246247.21720707975,
       "monthlyRent": 1366.1367748304356,
       "propertyTaxRate": 0.00873
     },
@@ -568,7 +568,7 @@
       "name": "Bay City, MI",
       "state": "MI",
       "homeValue": 186132.0903334449,
-      "monthlyRent": 1017.925,
+      "monthlyRent": 1017.9250000000001,
       "propertyTaxRate": 0.03019
     },
     {
@@ -576,7 +576,7 @@
       "regionId": "394370",
       "name": "Bay City, TX",
       "state": "TX",
-      "homeValue": 205819.4702782365,
+      "homeValue": 205819.47027823646,
       "monthlyRent": 863.1238095238095,
       "propertyTaxRate": 0.01346
     },
@@ -585,7 +585,7 @@
       "regionId": "394371",
       "name": "Beatrice, NE",
       "state": "NE",
-      "homeValue": 200715.084582706,
+      "homeValue": 200715.08458270598,
       "monthlyRent": 1101.0,
       "propertyTaxRate": 0.0178
     },
@@ -594,7 +594,7 @@
       "regionId": "394372",
       "name": "Beaumont, TX",
       "state": "TX",
-      "homeValue": 186304.5689742897,
+      "homeValue": 186304.56897428966,
       "monthlyRent": 1308.3377777777778,
       "propertyTaxRate": 0.01346
     },
@@ -621,7 +621,7 @@
       "regionId": "394375",
       "name": "Bedford, IN",
       "state": "IN",
-      "homeValue": 206305.5281111189,
+      "homeValue": 206305.52811111894,
       "monthlyRent": 1036.25,
       "propertyTaxRate": 0.01204
     },
@@ -640,7 +640,7 @@
       "name": "Bellefontaine, OH",
       "state": "OH",
       "homeValue": 253672.43763284627,
-      "monthlyRent": 1163.6666666666663,
+      "monthlyRent": 1163.6666666666665,
       "propertyTaxRate": 0.01025
     },
     {
@@ -685,7 +685,7 @@
       "name": "Berlin, NH",
       "state": "NH",
       "homeValue": 252870.3181879807,
-      "monthlyRent": 1291.6666666666663,
+      "monthlyRent": 1291.6666666666665,
       "propertyTaxRate": 0.01478
     },
     {
@@ -711,7 +711,7 @@
       "regionId": "394387",
       "name": "Binghamton, NY",
       "state": "NY",
-      "homeValue": 203309.80644023384,
+      "homeValue": 203309.80644023386,
       "monthlyRent": 1610.2531645569622,
       "propertyTaxRate": 0.01249
     },
@@ -729,7 +729,7 @@
       "regionId": "394390",
       "name": "Bismarck, ND",
       "state": "ND",
-      "homeValue": 356127.011173958,
+      "homeValue": 356127.01117395796,
       "monthlyRent": 1303.3400106837607,
       "propertyTaxRate": 0.01224
     },
@@ -748,7 +748,7 @@
       "name": "Blacksburg, VA",
       "state": "VA",
       "homeValue": 286933.56584321096,
-      "monthlyRent": 1659.025876798206,
+      "monthlyRent": 1659.0258767982061,
       "propertyTaxRate": 0.00749
     },
     {
@@ -756,7 +756,7 @@
       "regionId": "753869",
       "name": "Bloomington, IL",
       "state": "IL",
-      "homeValue": 260593.25134313916,
+      "homeValue": 260593.25134313913,
       "monthlyRent": 1292.0320744820351,
       "propertyTaxRate": 0.01502
     },
@@ -802,7 +802,7 @@
       "name": "Boone, NC",
       "state": "NC",
       "homeValue": 507769.7229952733,
-      "monthlyRent": 2198.333333333333,
+      "monthlyRent": 2198.3333333333335,
       "propertyTaxRate": 0.00702
     },
     {
@@ -810,7 +810,7 @@
       "regionId": "394403",
       "name": "Borger, TX",
       "state": "TX",
-      "homeValue": 118565.57436720937,
+      "homeValue": 118565.57436720935,
       "monthlyRent": 925.0,
       "propertyTaxRate": 0.01346
     },
@@ -847,7 +847,7 @@
       "name": "Bozeman, MT",
       "state": "MT",
       "homeValue": 697748.573330874,
-      "monthlyRent": 2200.581714677857,
+      "monthlyRent": 2200.5817146778572,
       "propertyTaxRate": 0.00728
     },
     {
@@ -865,7 +865,7 @@
       "name": "Branson, MO",
       "state": "MO",
       "homeValue": 245525.21736989543,
-      "monthlyRent": 1344.074074074074,
+      "monthlyRent": 1344.0740740740741,
       "propertyTaxRate": 0.01369
     },
     {
@@ -891,7 +891,7 @@
       "regionId": "394413",
       "name": "Brenham, TX",
       "state": "TX",
-      "homeValue": 363961.4632846208,
+      "homeValue": 363961.46328462084,
       "monthlyRent": 1595.638888888889,
       "propertyTaxRate": 0.01346
     },
@@ -981,7 +981,7 @@
       "regionId": "394429",
       "name": "Burlington, VT",
       "state": "VT",
-      "homeValue": 462002.5932737296,
+      "homeValue": 462002.59327372955,
       "monthlyRent": 2591.804308857963,
       "propertyTaxRate": 0.02316
     },
@@ -1027,7 +1027,7 @@
       "name": "Cambridge, MD",
       "state": "MD",
       "homeValue": 268728.21579850075,
-      "monthlyRent": 1854.1666666666663,
+      "monthlyRent": 1854.1666666666665,
       "propertyTaxRate": 0.02142
     },
     {
@@ -1044,8 +1044,8 @@
       "regionId": "394439",
       "name": "Canton, OH",
       "state": "OH",
-      "homeValue": 217651.6658477388,
-      "monthlyRent": 1141.080048151047,
+      "homeValue": 217651.66584773877,
+      "monthlyRent": 1141.0800481510473,
       "propertyTaxRate": 0.01025
     },
     {
@@ -1054,7 +1054,7 @@
       "name": "Cape Coral, FL",
       "state": "FL",
       "homeValue": 334479.3812217507,
-      "monthlyRent": 1826.7417185350996,
+      "monthlyRent": 1826.7417185350994,
       "propertyTaxRate": 0.01436
     },
     {
@@ -1135,7 +1135,7 @@
       "name": "Centralia, WA",
       "state": "WA",
       "homeValue": 428510.8156763883,
-      "monthlyRent": 1455.8373015873017,
+      "monthlyRent": 1455.8373015873015,
       "propertyTaxRate": 0.00768
     },
     {
@@ -1197,7 +1197,7 @@
       "regionId": "394459",
       "name": "Charlottesville, VA",
       "state": "VA",
-      "homeValue": 464131.7651529671,
+      "homeValue": 464131.76515296707,
       "monthlyRent": 2040.478651173388,
       "propertyTaxRate": 0.00749
     },
@@ -1215,7 +1215,7 @@
       "regionId": "394462",
       "name": "Cheyenne, WY",
       "state": "WY",
-      "homeValue": 390069.5883528433,
+      "homeValue": 390069.58835284325,
       "monthlyRent": 1528.84016563147,
       "propertyTaxRate": 0.00638
     },
@@ -1287,7 +1287,7 @@
       "regionId": "394475",
       "name": "Cleveland, OH",
       "state": "OH",
-      "homeValue": 250000.9899130405,
+      "homeValue": 250000.98991304054,
       "monthlyRent": 1439.728115059572,
       "propertyTaxRate": 0.01025
     },
@@ -1324,7 +1324,7 @@
       "name": "Coeur d'Alene, ID",
       "state": "ID",
       "homeValue": 606180.3154254225,
-      "monthlyRent": 1824.884181600956,
+      "monthlyRent": 1824.8841816009556,
       "propertyTaxRate": 0.00611
     },
     {
@@ -1332,7 +1332,7 @@
       "regionId": "394481",
       "name": "Coffeyville, KS",
       "state": "KS",
-      "homeValue": 102033.87905570856,
+      "homeValue": 102033.87905570857,
       "monthlyRent": 812.5,
       "propertyTaxRate": 0.01107
     },
@@ -1350,7 +1350,7 @@
       "regionId": "394483",
       "name": "College Station, TX",
       "state": "TX",
-      "homeValue": 304971.800879428,
+      "homeValue": 304971.80087942793,
       "monthlyRent": 1504.1286459629907,
       "propertyTaxRate": 0.01346
     },
@@ -1386,7 +1386,7 @@
       "regionId": "394488",
       "name": "Columbus, GA",
       "state": "GA",
-      "homeValue": 209756.31325954775,
+      "homeValue": 209756.31325954778,
       "monthlyRent": 1353.275888133031,
       "propertyTaxRate": 0.00838
     },
@@ -1396,7 +1396,7 @@
       "name": "Columbus, IN",
       "state": "IN",
       "homeValue": 274090.52586974466,
-      "monthlyRent": 1379.798167092924,
+      "monthlyRent": 1379.7981670929241,
       "propertyTaxRate": 0.01204
     },
     {
@@ -1476,7 +1476,7 @@
       "regionId": "394502",
       "name": "Corpus Christi, TX",
       "state": "TX",
-      "homeValue": 221538.3187853949,
+      "homeValue": 221538.31878539492,
       "monthlyRent": 1424.975960299693,
       "propertyTaxRate": 0.01346
     },
@@ -1504,7 +1504,7 @@
       "name": "Corvallis, OR",
       "state": "OR",
       "homeValue": 553196.2132275883,
-      "monthlyRent": 1810.7678905320413,
+      "monthlyRent": 1810.7678905320415,
       "propertyTaxRate": 0.02593
     },
     {
@@ -1512,7 +1512,7 @@
       "regionId": "394507",
       "name": "Crawfordsville, IN",
       "state": "IN",
-      "homeValue": 226763.95635233077,
+      "homeValue": 226763.95635233074,
       "monthlyRent": 1020.0,
       "propertyTaxRate": 0.01204
     },
@@ -1521,7 +1521,7 @@
       "regionId": "394508",
       "name": "Crescent City, CA",
       "state": "CA",
-      "homeValue": 361199.512682469,
+      "homeValue": 361199.51268246904,
       "monthlyRent": 1936.6666666666667,
       "propertyTaxRate": 0.01191
     },
@@ -1531,7 +1531,7 @@
       "name": "Crestview, FL",
       "state": "FL",
       "homeValue": 439732.8257051496,
-      "monthlyRent": 1967.7471276355357,
+      "monthlyRent": 1967.7471276355354,
       "propertyTaxRate": 0.01436
     },
     {
@@ -1548,7 +1548,7 @@
       "regionId": "394511",
       "name": "Cullman, AL",
       "state": "AL",
-      "homeValue": 252048.00511790477,
+      "homeValue": 252048.00511790474,
       "monthlyRent": 1419.1309523809523,
       "propertyTaxRate": 0.0054
     },
@@ -1584,7 +1584,7 @@
       "regionId": "394515",
       "name": "Dalton, GA",
       "state": "GA",
-      "homeValue": 244988.8147324501,
+      "homeValue": 244988.81473245006,
       "monthlyRent": 1402.313888888889,
       "propertyTaxRate": 0.00838
     },
@@ -1621,7 +1621,7 @@
       "name": "Daphne, AL",
       "state": "AL",
       "homeValue": 371460.00400547247,
-      "monthlyRent": 1700.674349532237,
+      "monthlyRent": 1700.6743495322373,
       "propertyTaxRate": 0.0054
     },
     {
@@ -1684,7 +1684,7 @@
       "name": "Denver, CO",
       "state": "CO",
       "homeValue": 555487.225480902,
-      "monthlyRent": 1899.6196457554115,
+      "monthlyRent": 1899.6196457554113,
       "propertyTaxRate": 0.00519
     },
     {
@@ -1728,7 +1728,7 @@
       "regionId": "394535",
       "name": "Dixon, IL",
       "state": "IL",
-      "homeValue": 188695.9465857988,
+      "homeValue": 188695.94658579878,
       "monthlyRent": 1108.4722222222224,
       "propertyTaxRate": 0.01502
     },
@@ -1738,7 +1738,7 @@
       "name": "Dothan, AL",
       "state": "AL",
       "homeValue": 193191.72746888315,
-      "monthlyRent": 1211.4126984126983,
+      "monthlyRent": 1211.4126984126985,
       "propertyTaxRate": 0.0054
     },
     {
@@ -1783,7 +1783,7 @@
       "name": "Duluth, MN",
       "state": "MN",
       "homeValue": 263835.09823280893,
-      "monthlyRent": 1328.995060495061,
+      "monthlyRent": 1328.9950604950607,
       "propertyTaxRate": 0.0125
     },
     {
@@ -1891,7 +1891,7 @@
       "name": "El Centro, CA",
       "state": "CA",
       "homeValue": 382009.00013557455,
-      "monthlyRent": 1802.934523809524,
+      "monthlyRent": 1802.9345238095239,
       "propertyTaxRate": 0.01191
     },
     {
@@ -1999,7 +1999,7 @@
       "name": "Eugene, OR",
       "state": "OR",
       "homeValue": 452796.95882459247,
-      "monthlyRent": 1771.4028422915285,
+      "monthlyRent": 1771.4028422915283,
       "propertyTaxRate": 0.02593
     },
     {
@@ -2016,7 +2016,7 @@
       "regionId": "394579",
       "name": "Evansville, IN",
       "state": "IN",
-      "homeValue": 225369.62375501855,
+      "homeValue": 225369.62375501858,
       "monthlyRent": 1097.9266666666667,
       "propertyTaxRate": 0.01204
     },
@@ -2070,8 +2070,8 @@
       "regionId": "394587",
       "name": "Farmington, MO",
       "state": "MO",
-      "homeValue": 193127.49988003325,
-      "monthlyRent": 999.3392857142856,
+      "homeValue": 193127.49988003323,
+      "monthlyRent": 999.3392857142857,
       "propertyTaxRate": 0.01369
     },
     {
@@ -2080,7 +2080,7 @@
       "name": "Farmington, NM",
       "state": "NM",
       "homeValue": 273561.04616926453,
-      "monthlyRent": 1399.0761784511783,
+      "monthlyRent": 1399.0761784511785,
       "propertyTaxRate": 0.01416
     },
     {
@@ -2098,7 +2098,7 @@
       "name": "Fayetteville, NC",
       "state": "NC",
       "homeValue": 253782.15199785816,
-      "monthlyRent": 1454.128833854308,
+      "monthlyRent": 1454.1288338543081,
       "propertyTaxRate": 0.00702
     },
     {
@@ -2124,7 +2124,7 @@
       "regionId": "394593",
       "name": "Findlay, OH",
       "state": "OH",
-      "homeValue": 239315.1466363133,
+      "homeValue": 239315.14663631332,
       "monthlyRent": 1347.7777777777776,
       "propertyTaxRate": 0.01025
     },
@@ -2161,7 +2161,7 @@
       "name": "Florence, SC",
       "state": "SC",
       "homeValue": 193283.8025911293,
-      "monthlyRent": 1515.7007575757575,
+      "monthlyRent": 1515.7007575757577,
       "propertyTaxRate": 0.00494
     },
     {
@@ -2169,8 +2169,8 @@
       "regionId": "394599",
       "name": "Fond du Lac, WI",
       "state": "WI",
-      "homeValue": 291659.7550981416,
-      "monthlyRent": 1127.90101010101,
+      "homeValue": 291659.75509814156,
+      "monthlyRent": 1127.9010101010101,
       "propertyTaxRate": 0.01781
     },
     {
@@ -2188,7 +2188,7 @@
       "name": "Fort Collins, CO",
       "state": "CO",
       "homeValue": 545601.2998584001,
-      "monthlyRent": 1973.2426541771288,
+      "monthlyRent": 1973.2426541771292,
       "propertyTaxRate": 0.00519
     },
     {
@@ -2232,7 +2232,7 @@
       "regionId": "394612",
       "name": "Fort Wayne, IN",
       "state": "IN",
-      "homeValue": 257074.17476783652,
+      "homeValue": 257074.17476783655,
       "monthlyRent": 1265.6153054485642,
       "propertyTaxRate": 0.01204
     },
@@ -2241,7 +2241,7 @@
       "regionId": "394613",
       "name": "Frankfort, IN",
       "state": "IN",
-      "homeValue": 224331.13479630492,
+      "homeValue": 224331.13479630495,
       "monthlyRent": 1000.3333333333334,
       "propertyTaxRate": 0.01204
     },
@@ -2269,7 +2269,7 @@
       "name": "Freeport, IL",
       "state": "IL",
       "homeValue": 160510.38386493872,
-      "monthlyRent": 922.6190476190476,
+      "monthlyRent": 922.6190476190477,
       "propertyTaxRate": 0.01502
     },
     {
@@ -2277,7 +2277,7 @@
       "regionId": "394617",
       "name": "Fremont, NE",
       "state": "NE",
-      "homeValue": 240411.36264537252,
+      "homeValue": 240411.36264537254,
       "monthlyRent": 1203.1493930905697,
       "propertyTaxRate": 0.0178
     },
@@ -2286,7 +2286,7 @@
       "regionId": "394619",
       "name": "Fresno, CA",
       "state": "CA",
-      "homeValue": 404051.5170741241,
+      "homeValue": 404051.51707412413,
       "monthlyRent": 2051.970015485869,
       "propertyTaxRate": 0.01191
     },
@@ -2350,7 +2350,7 @@
       "name": "Georgetown, SC",
       "state": "SC",
       "homeValue": 387241.7660472269,
-      "monthlyRent": 1792.6222222222225,
+      "monthlyRent": 1792.6222222222223,
       "propertyTaxRate": 0.00494
     },
     {
@@ -2367,7 +2367,7 @@
       "regionId": "394631",
       "name": "Gillette, WY",
       "state": "WY",
-      "homeValue": 338700.1065335312,
+      "homeValue": 338700.10653353116,
       "monthlyRent": 1272.6805555555557,
       "propertyTaxRate": 0.00638
     },
@@ -2377,7 +2377,7 @@
       "name": "Glasgow, KY",
       "state": "KY",
       "homeValue": 207687.23177084027,
-      "monthlyRent": 978.3333333333331,
+      "monthlyRent": 978.3333333333333,
       "propertyTaxRate": 0.01192
     },
     {
@@ -2403,7 +2403,7 @@
       "regionId": "394634",
       "name": "Gloversville, NY",
       "state": "NY",
-      "homeValue": 228443.6530825609,
+      "homeValue": 228443.65308256086,
       "monthlyRent": 1150.0,
       "propertyTaxRate": 0.01249
     },
@@ -2431,7 +2431,7 @@
       "name": "Grand Island, NE",
       "state": "NE",
       "homeValue": 255024.9624672637,
-      "monthlyRent": 1340.2992424242425,
+      "monthlyRent": 1340.2992424242423,
       "propertyTaxRate": 0.0178
     },
     {
@@ -2440,7 +2440,7 @@
       "name": "Grand Junction, CO",
       "state": "CO",
       "homeValue": 428679.533419213,
-      "monthlyRent": 1730.2591488657065,
+      "monthlyRent": 1730.2591488657063,
       "propertyTaxRate": 0.00519
     },
     {
@@ -2484,7 +2484,7 @@
       "regionId": "394645",
       "name": "Greeley, CO",
       "state": "CO",
-      "homeValue": 488298.1811186129,
+      "homeValue": 488298.18111861293,
       "monthlyRent": 1684.8288389896206,
       "propertyTaxRate": 0.00519
     },
@@ -2520,7 +2520,7 @@
       "regionId": "394651",
       "name": "Greenville, NC",
       "state": "NC",
-      "homeValue": 243594.9218986309,
+      "homeValue": 243594.92189863094,
       "monthlyRent": 1464.6812308717156,
       "propertyTaxRate": 0.00702
     },
@@ -2583,7 +2583,7 @@
       "regionId": "394662",
       "name": "Hanford, CA",
       "state": "CA",
-      "homeValue": 363952.3855365972,
+      "homeValue": 363952.38553659717,
       "monthlyRent": 1936.5941176470587,
       "propertyTaxRate": 0.01191
     },
@@ -2593,7 +2593,7 @@
       "name": "Harrisburg, PA",
       "state": "PA",
       "homeValue": 306577.50827128405,
-      "monthlyRent": 1480.5584078040215,
+      "monthlyRent": 1480.5584078040217,
       "propertyTaxRate": 0.0085
     },
     {
@@ -2611,7 +2611,7 @@
       "name": "Hartford, CT",
       "state": "CT",
       "homeValue": 398703.3963700556,
-      "monthlyRent": 1998.244974224178,
+      "monthlyRent": 1998.2449742241781,
       "propertyTaxRate": 0.0194
     },
     {
@@ -2619,7 +2619,7 @@
       "regionId": "394670",
       "name": "Hastings, NE",
       "state": "NE",
-      "homeValue": 210913.1186475504,
+      "homeValue": 210913.11864755038,
       "monthlyRent": 1200.0,
       "propertyTaxRate": 0.0178
     },
@@ -2638,7 +2638,7 @@
       "name": "Heber, UT",
       "state": "UT",
       "homeValue": 1143939.3494551035,
-      "monthlyRent": 2977.61011855528,
+      "monthlyRent": 2977.6101185552798,
       "propertyTaxRate": 0.00517
     },
     {
@@ -2655,7 +2655,7 @@
       "regionId": "394677",
       "name": "Henderson, NC",
       "state": "NC",
-      "homeValue": 181985.2337004317,
+      "homeValue": 181985.23370043174,
       "monthlyRent": 995.8571428571428,
       "propertyTaxRate": 0.00702
     },
@@ -2701,7 +2701,7 @@
       "name": "Hilton Head Island, SC",
       "state": "SC",
       "homeValue": 521588.334158063,
-      "monthlyRent": 1971.1237377708092,
+      "monthlyRent": 1971.1237377708094,
       "propertyTaxRate": 0.00494
     },
     {
@@ -2709,8 +2709,8 @@
       "regionId": "394682",
       "name": "Hinesville, GA",
       "state": "GA",
-      "homeValue": 257752.3940908584,
-      "monthlyRent": 1745.059409888357,
+      "homeValue": 257752.39409085838,
+      "monthlyRent": 1745.0594098883573,
       "propertyTaxRate": 0.00838
     },
     {
@@ -2754,7 +2754,7 @@
       "regionId": "394689",
       "name": "Hot Springs, AR",
       "state": "AR",
-      "homeValue": 243714.5936605805,
+      "homeValue": 243714.59366058046,
       "monthlyRent": 1236.1474358974358,
       "propertyTaxRate": 0.01132
     },
@@ -2763,7 +2763,7 @@
       "regionId": "394690",
       "name": "Houghton, MI",
       "state": "MI",
-      "homeValue": 198833.04619973135,
+      "homeValue": 198833.04619973138,
       "monthlyRent": 1562.7777777777776,
       "propertyTaxRate": 0.03019
     },
@@ -2791,7 +2791,7 @@
       "name": "Hudson, NY",
       "state": "NY",
       "homeValue": 489939.0070065479,
-      "monthlyRent": 2210.1111111111118,
+      "monthlyRent": 2210.1111111111113,
       "propertyTaxRate": 0.01249
     },
     {
@@ -2872,7 +2872,7 @@
       "name": "Indiana, PA",
       "state": "PA",
       "homeValue": 172621.17355174242,
-      "monthlyRent": 1913.1111111111115,
+      "monthlyRent": 1913.1111111111113,
       "propertyTaxRate": 0.0085
     },
     {
@@ -2889,8 +2889,8 @@
       "regionId": "394707",
       "name": "Iowa City, IA",
       "state": "IA",
-      "homeValue": 300040.1521677452,
-      "monthlyRent": 1756.8180555555557,
+      "homeValue": 300040.15216774517,
+      "monthlyRent": 1756.8180555555555,
       "propertyTaxRate": 0.01702
     },
     {
@@ -2899,7 +2899,7 @@
       "name": "Ithaca, NY",
       "state": "NY",
       "homeValue": 350377.8866101404,
-      "monthlyRent": 1987.4135531135528,
+      "monthlyRent": 1987.4135531135532,
       "propertyTaxRate": 0.01249
     },
     {
@@ -2916,7 +2916,7 @@
       "regionId": "394711",
       "name": "Jackson, MS",
       "state": "MS",
-      "homeValue": 212335.18197998,
+      "homeValue": 212335.18197997997,
       "monthlyRent": 1470.0060346384862,
       "propertyTaxRate": 0.01269
     },
@@ -2925,8 +2925,8 @@
       "regionId": "394712",
       "name": "Jackson, TN",
       "state": "TN",
-      "homeValue": 201741.1486590872,
-      "monthlyRent": 1392.8277463571735,
+      "homeValue": 201741.14865908722,
+      "monthlyRent": 1392.8277463571737,
       "propertyTaxRate": 0.00581
     },
     {
@@ -2970,7 +2970,7 @@
       "regionId": "394719",
       "name": "Jamestown, NY",
       "state": "NY",
-      "homeValue": 180655.51444170836,
+      "homeValue": 180655.51444170834,
       "monthlyRent": 1077.5,
       "propertyTaxRate": 0.01249
     },
@@ -3006,7 +3006,7 @@
       "regionId": "394725",
       "name": "Jesup, GA",
       "state": "GA",
-      "homeValue": 209458.7934774424,
+      "homeValue": 209458.79347744238,
       "monthlyRent": 1250.0,
       "propertyTaxRate": 0.00838
     },
@@ -3034,7 +3034,7 @@
       "name": "Jonesboro, AR",
       "state": "AR",
       "homeValue": 203787.44505497187,
-      "monthlyRent": 1236.6188660801563,
+      "monthlyRent": 1236.6188660801565,
       "propertyTaxRate": 0.01132
     },
     {
@@ -3070,7 +3070,7 @@
       "name": "Kalamazoo, MI",
       "state": "MI",
       "homeValue": 274078.46263942175,
-      "monthlyRent": 1287.0406549589577,
+      "monthlyRent": 1287.0406549589575,
       "propertyTaxRate": 0.03019
     },
     {
@@ -3096,7 +3096,7 @@
       "regionId": "394735",
       "name": "Kansas City, MO",
       "state": "MO",
-      "homeValue": 324886.564961014,
+      "homeValue": 324886.56496101397,
       "monthlyRent": 1533.6776298431075,
       "propertyTaxRate": 0.01369
     },
@@ -3124,7 +3124,7 @@
       "name": "Keene, NH",
       "state": "NH",
       "homeValue": 389011.3494447537,
-      "monthlyRent": 1880.330128205128,
+      "monthlyRent": 1880.3301282051282,
       "propertyTaxRate": 0.01478
     },
     {
@@ -3150,7 +3150,7 @@
       "regionId": "394744",
       "name": "Key West, FL",
       "state": "FL",
-      "homeValue": 962915.6029208044,
+      "homeValue": 962915.6029208043,
       "monthlyRent": 3670.691282051282,
       "propertyTaxRate": 0.01436
     },
@@ -3169,7 +3169,7 @@
       "name": "Killeen, TX",
       "state": "TX",
       "homeValue": 248023.7609573868,
-      "monthlyRent": 1308.166126117355,
+      "monthlyRent": 1308.1661261173547,
       "propertyTaxRate": 0.01346
     },
     {
@@ -3177,8 +3177,8 @@
       "regionId": "394747",
       "name": "Kingsport, TN",
       "state": "TN",
-      "homeValue": 242853.2688387636,
-      "monthlyRent": 1329.8605555555555,
+      "homeValue": 242853.26883876362,
+      "monthlyRent": 1329.8605555555557,
       "propertyTaxRate": 0.00581
     },
     {
@@ -3187,7 +3187,7 @@
       "name": "Kingston, NY",
       "state": "NY",
       "homeValue": 451631.5060241472,
-      "monthlyRent": 2015.1154022988503,
+      "monthlyRent": 2015.1154022988505,
       "propertyTaxRate": 0.01249
     },
     {
@@ -3231,7 +3231,7 @@
       "regionId": "394753",
       "name": "Knoxville, TN",
       "state": "TN",
-      "homeValue": 363017.6368833471,
+      "homeValue": 363017.63688334706,
       "monthlyRent": 1724.9573346188215,
       "propertyTaxRate": 0.00581
     },
@@ -3240,7 +3240,7 @@
       "regionId": "394755",
       "name": "Kokomo, IN",
       "state": "IN",
-      "homeValue": 190878.12415237815,
+      "homeValue": 190878.12415237818,
       "monthlyRent": 1093.6574770258983,
       "propertyTaxRate": 0.01204
     },
@@ -3268,7 +3268,7 @@
       "name": "Laconia, NH",
       "state": "NH",
       "homeValue": 507607.5047862879,
-      "monthlyRent": 1955.5535714285716,
+      "monthlyRent": 1955.5535714285713,
       "propertyTaxRate": 0.01478
     },
     {
@@ -3312,7 +3312,7 @@
       "regionId": "394764",
       "name": "Lake City, FL",
       "state": "FL",
-      "homeValue": 267684.3560025456,
+      "homeValue": 267684.35600254557,
       "monthlyRent": 1499.3551587301588,
       "propertyTaxRate": 0.01436
     },
@@ -3349,7 +3349,7 @@
       "name": "Lansing, MI",
       "state": "MI",
       "homeValue": 246267.00461436107,
-      "monthlyRent": 1302.2216173365491,
+      "monthlyRent": 1302.2216173365493,
       "propertyTaxRate": 0.03019
     },
     {
@@ -3421,7 +3421,7 @@
       "name": "Lawton, OK",
       "state": "OK",
       "homeValue": 156701.715695388,
-      "monthlyRent": 1125.6278373266075,
+      "monthlyRent": 1125.6278373266077,
       "propertyTaxRate": 0.01313
     },
     {
@@ -3429,7 +3429,7 @@
       "regionId": "394781",
       "name": "Lebanon, MO",
       "state": "MO",
-      "homeValue": 237482.7280422469,
+      "homeValue": 237482.72804224686,
       "monthlyRent": 972.2222222222222,
       "propertyTaxRate": 0.01369
     },
@@ -3465,7 +3465,7 @@
       "regionId": "394787",
       "name": "Lewiston, ID",
       "state": "ID",
-      "homeValue": 373980.2734741828,
+      "homeValue": 373980.27347418276,
       "monthlyRent": 1473.0555555555557,
       "propertyTaxRate": 0.00611
     },
@@ -3502,7 +3502,7 @@
       "name": "Lima, OH",
       "state": "OH",
       "homeValue": 190694.37821876383,
-      "monthlyRent": 1208.428571428571,
+      "monthlyRent": 1208.4285714285713,
       "propertyTaxRate": 0.01025
     },
     {
@@ -3529,7 +3529,7 @@
       "name": "Lock Haven, PA",
       "state": "PA",
       "homeValue": 198515.59492048307,
-      "monthlyRent": 968.9880952380952,
+      "monthlyRent": 968.9880952380953,
       "propertyTaxRate": 0.0085
     },
     {
@@ -3546,7 +3546,7 @@
       "regionId": "394801",
       "name": "Logansport, IN",
       "state": "IN",
-      "homeValue": 173393.730350988,
+      "homeValue": 173393.73035098801,
       "monthlyRent": 795.0,
       "propertyTaxRate": 0.01204
     },
@@ -3564,7 +3564,7 @@
       "regionId": "394803",
       "name": "Longview, TX",
       "state": "TX",
-      "homeValue": 218198.41414194612,
+      "homeValue": 218198.41414194615,
       "monthlyRent": 1147.679448384555,
       "propertyTaxRate": 0.01346
     },
@@ -3573,7 +3573,7 @@
       "regionId": "394804",
       "name": "Longview, WA",
       "state": "WA",
-      "homeValue": 417833.3065402716,
+      "homeValue": 417833.30654027156,
       "monthlyRent": 1417.1611952861956,
       "propertyTaxRate": 0.00768
     },
@@ -3591,7 +3591,7 @@
       "regionId": "753899",
       "name": "Los Angeles, CA",
       "state": "CA",
-      "homeValue": 950020.04410351,
+      "homeValue": 950020.0441035099,
       "monthlyRent": 2928.853702808458,
       "propertyTaxRate": 0.01191
     },
@@ -3601,7 +3601,7 @@
       "name": "Louisville, KY",
       "state": "KY",
       "homeValue": 278562.0660276204,
-      "monthlyRent": 1338.68855386087,
+      "monthlyRent": 1338.6885538608701,
       "propertyTaxRate": 0.01192
     },
     {
@@ -3627,7 +3627,7 @@
       "regionId": "394809",
       "name": "Lufkin, TX",
       "state": "TX",
-      "homeValue": 198754.87210380676,
+      "homeValue": 198754.87210380673,
       "monthlyRent": 1320.8333333333333,
       "propertyTaxRate": 0.01346
     },
@@ -3663,7 +3663,7 @@
       "regionId": "394814",
       "name": "Madera, CA",
       "state": "CA",
-      "homeValue": 421923.8867736938,
+      "homeValue": 421923.88677369384,
       "monthlyRent": 2134.865238927739,
       "propertyTaxRate": 0.01191
     },
@@ -3762,7 +3762,7 @@
       "regionId": "753904",
       "name": "Marion, NC",
       "state": "NC",
-      "homeValue": 256096.4991533785,
+      "homeValue": 256096.49915337854,
       "monthlyRent": 1425.4166666666667,
       "propertyTaxRate": 0.00702
     },
@@ -3771,7 +3771,7 @@
       "regionId": "394827",
       "name": "Marion, OH",
       "state": "OH",
-      "homeValue": 183252.24486897743,
+      "homeValue": 183252.24486897746,
       "monthlyRent": 1164.4166666666667,
       "propertyTaxRate": 0.01025
     },
@@ -3789,7 +3789,7 @@
       "regionId": "394833",
       "name": "Marshalltown, IA",
       "state": "IA",
-      "homeValue": 192354.03538185376,
+      "homeValue": 192354.03538185378,
       "monthlyRent": 1123.888888888889,
       "propertyTaxRate": 0.01702
     },
@@ -3834,7 +3834,7 @@
       "regionId": "394845",
       "name": "McMinnville, TN",
       "state": "TN",
-      "homeValue": 254126.50503951,
+      "homeValue": 254126.50503950997,
       "monthlyRent": 853.1666666666666,
       "propertyTaxRate": 0.00581
     },
@@ -3888,7 +3888,7 @@
       "regionId": "394852",
       "name": "Meridian, MS",
       "state": "MS",
-      "homeValue": 117032.11918414704,
+      "homeValue": 117032.11918414703,
       "monthlyRent": 1283.611111111111,
       "propertyTaxRate": 0.01269
     },
@@ -3906,7 +3906,7 @@
       "regionId": "394857",
       "name": "Michigan City, IN",
       "state": "IN",
-      "homeValue": 258619.36688762356,
+      "homeValue": 258619.36688762353,
       "monthlyRent": 1201.986013986014,
       "propertyTaxRate": 0.01204
     },
@@ -3915,7 +3915,7 @@
       "regionId": "394859",
       "name": "Midland, MI",
       "state": "MI",
-      "homeValue": 245090.75884547184,
+      "homeValue": 245090.75884547186,
       "monthlyRent": 1382.0648148148148,
       "propertyTaxRate": 0.03019
     },
@@ -3979,7 +3979,7 @@
       "name": "Missoula, MT",
       "state": "MT",
       "homeValue": 569814.1132498191,
-      "monthlyRent": 1622.4546368073495,
+      "monthlyRent": 1622.4546368073497,
       "propertyTaxRate": 0.00728
     },
     {
@@ -3987,7 +3987,7 @@
       "regionId": "394870",
       "name": "Mobile, AL",
       "state": "AL",
-      "homeValue": 194638.35072073655,
+      "homeValue": 194638.35072073658,
       "monthlyRent": 1279.8444719471947,
       "propertyTaxRate": 0.0054
     },
@@ -4023,7 +4023,7 @@
       "regionId": "394875",
       "name": "Montgomery, AL",
       "state": "AL",
-      "homeValue": 212437.3264261236,
+      "homeValue": 212437.32642612362,
       "monthlyRent": 1382.5262183911364,
       "propertyTaxRate": 0.0054
     },
@@ -4032,7 +4032,7 @@
       "regionId": "394876",
       "name": "Montrose, CO",
       "state": "CO",
-      "homeValue": 492731.0179204189,
+      "homeValue": 492731.01792041893,
       "monthlyRent": 1934.4843304843305,
       "propertyTaxRate": 0.00519
     },
@@ -4095,7 +4095,7 @@
       "regionId": "394884",
       "name": "Mount Airy, NC",
       "state": "NC",
-      "homeValue": 241903.75745511855,
+      "homeValue": 241903.75745511858,
       "monthlyRent": 1222.5,
       "propertyTaxRate": 0.00702
     },
@@ -4113,7 +4113,7 @@
       "regionId": "394886",
       "name": "Mount Pleasant, TX",
       "state": "TX",
-      "homeValue": 221130.59576799136,
+      "homeValue": 221130.59576799138,
       "monthlyRent": 1580.1944444444443,
       "propertyTaxRate": 0.01346
     },
@@ -4141,7 +4141,7 @@
       "name": "Mount Vernon, WA",
       "state": "WA",
       "homeValue": 576334.1067517161,
-      "monthlyRent": 2184.713095238096,
+      "monthlyRent": 2184.7130952380953,
       "propertyTaxRate": 0.00768
     },
     {
@@ -4168,7 +4168,7 @@
       "name": "Muncie, IN",
       "state": "IN",
       "homeValue": 168797.6241781594,
-      "monthlyRent": 1043.3262962962965,
+      "monthlyRent": 1043.3262962962963,
       "propertyTaxRate": 0.01204
     },
     {
@@ -4185,8 +4185,8 @@
       "regionId": "394896",
       "name": "Muskegon, MI",
       "state": "MI",
-      "homeValue": 255238.4536740945,
-      "monthlyRent": 1288.1659420289857,
+      "homeValue": 255238.45367409452,
+      "monthlyRent": 1288.1659420289855,
       "propertyTaxRate": 0.03019
     },
     {
@@ -4230,7 +4230,7 @@
       "regionId": "394902",
       "name": "Nashville, TN",
       "state": "TN",
-      "homeValue": 448896.1956618642,
+      "homeValue": 448896.19566186424,
       "monthlyRent": 1802.685684046597,
       "propertyTaxRate": 0.00581
     },
@@ -4294,7 +4294,7 @@
       "name": "New York, NY",
       "state": "NY",
       "homeValue": 730948.9763600989,
-      "monthlyRent": 3545.649491057796,
+      "monthlyRent": 3545.6494910577953,
       "propertyTaxRate": 0.01249
     },
     {
@@ -4338,7 +4338,7 @@
       "regionId": "394920",
       "name": "North Platte, NE",
       "state": "NE",
-      "homeValue": 225018.6348302976,
+      "homeValue": 225018.63483029758,
       "monthlyRent": 1063.3333333333333,
       "propertyTaxRate": 0.0178
     },
@@ -4402,7 +4402,7 @@
       "name": "Ocean City, NJ",
       "state": "NJ",
       "homeValue": 813022.9611534431,
-      "monthlyRent": 1983.375874125874,
+      "monthlyRent": 1983.3758741258741,
       "propertyTaxRate": 0.02124
     },
     {
@@ -4419,7 +4419,7 @@
       "regionId": "394931",
       "name": "Ogden, UT",
       "state": "UT",
-      "homeValue": 508920.0173449328,
+      "homeValue": 508920.01734493277,
       "monthlyRent": 1630.6617113200944,
       "propertyTaxRate": 0.00517
     },
@@ -4429,7 +4429,7 @@
       "name": "Ogdensburg, NY",
       "state": "NY",
       "homeValue": 149734.1687477275,
-      "monthlyRent": 1238.6,
+      "monthlyRent": 1238.6000000000001,
       "propertyTaxRate": 0.01249
     },
     {
@@ -4456,7 +4456,7 @@
       "name": "Olympia, WA",
       "state": "WA",
       "homeValue": 521365.421698262,
-      "monthlyRent": 2043.3755797891677,
+      "monthlyRent": 2043.3755797891674,
       "propertyTaxRate": 0.00768
     },
     {
@@ -4473,8 +4473,8 @@
       "regionId": "394939",
       "name": "Oneonta, NY",
       "state": "NY",
-      "homeValue": 220096.65109444637,
-      "monthlyRent": 1930.6626984126983,
+      "homeValue": 220096.65109444634,
+      "monthlyRent": 1930.6626984126985,
       "propertyTaxRate": 0.01249
     },
     {
@@ -4482,7 +4482,7 @@
       "regionId": "394940",
       "name": "Ontario, OR",
       "state": "OR",
-      "homeValue": 370247.6009446853,
+      "homeValue": 370247.60094468534,
       "monthlyRent": 1433.888888888889,
       "propertyTaxRate": 0.02593
     },
@@ -4501,7 +4501,7 @@
       "name": "Orangeburg, SC",
       "state": "SC",
       "homeValue": 162531.97204323145,
-      "monthlyRent": 1180.1,
+      "monthlyRent": 1180.1000000000001,
       "propertyTaxRate": 0.00494
     },
     {
@@ -4510,7 +4510,7 @@
       "name": "Orlando, FL",
       "state": "FL",
       "homeValue": 383301.59894113336,
-      "monthlyRent": 1929.3939746664664,
+      "monthlyRent": 1929.3939746664666,
       "propertyTaxRate": 0.01436
     },
     {
@@ -4536,7 +4536,7 @@
       "regionId": "394949",
       "name": "Owensboro, KY",
       "state": "KY",
-      "homeValue": 213968.3568492417,
+      "homeValue": 213968.35684924174,
       "monthlyRent": 1235.7738095238094,
       "propertyTaxRate": 0.01192
     },
@@ -4582,7 +4582,7 @@
       "name": "Pahrump, NV",
       "state": "NV",
       "homeValue": 355158.431945479,
-      "monthlyRent": 1470.809523809524,
+      "monthlyRent": 1470.8095238095239,
       "propertyTaxRate": 0.01138
     },
     {
@@ -4590,7 +4590,7 @@
       "regionId": "394955",
       "name": "Palatka, FL",
       "state": "FL",
-      "homeValue": 216321.748752928,
+      "homeValue": 216321.74875292802,
       "monthlyRent": 1370.0642857142857,
       "propertyTaxRate": 0.01436
     },
@@ -4609,7 +4609,7 @@
       "name": "Palm Bay, FL",
       "state": "FL",
       "homeValue": 342338.50830025016,
-      "monthlyRent": 1886.8997013055837,
+      "monthlyRent": 1886.8997013055834,
       "propertyTaxRate": 0.01436
     },
     {
@@ -4635,7 +4635,7 @@
       "regionId": "394962",
       "name": "Paris, TN",
       "state": "TN",
-      "homeValue": 221770.94179447903,
+      "homeValue": 221770.94179447906,
       "monthlyRent": 1100.0,
       "propertyTaxRate": 0.00581
     },
@@ -4645,7 +4645,7 @@
       "name": "Paris, TX",
       "state": "TX",
       "homeValue": 201792.2950241513,
-      "monthlyRent": 1310.1,
+      "monthlyRent": 1310.1000000000001,
       "propertyTaxRate": 0.01346
     },
     {
@@ -4662,7 +4662,7 @@
       "regionId": "394967",
       "name": "Payson, AZ",
       "state": "AZ",
-      "homeValue": 385126.6392467322,
+      "homeValue": 385126.63924673223,
       "monthlyRent": 1846.388888888889,
       "propertyTaxRate": 0.00969
     },
@@ -4672,7 +4672,7 @@
       "name": "Pensacola, FL",
       "state": "FL",
       "homeValue": 308972.4875190451,
-      "monthlyRent": 1735.0468133546285,
+      "monthlyRent": 1735.0468133546283,
       "propertyTaxRate": 0.01436
     },
     {
@@ -4690,7 +4690,7 @@
       "name": "Philadelphia, PA",
       "state": "PA",
       "homeValue": 386048.0267503148,
-      "monthlyRent": 1903.0787856327731,
+      "monthlyRent": 1903.0787856327734,
       "propertyTaxRate": 0.0085
     },
     {
@@ -4725,7 +4725,7 @@
       "regionId": "394980",
       "name": "Pine Bluff, AR",
       "state": "AR",
-      "homeValue": 101811.35177200552,
+      "homeValue": 101811.35177200551,
       "monthlyRent": 851.0444444444444,
       "propertyTaxRate": 0.01132
     },
@@ -4753,7 +4753,7 @@
       "name": "Pittsburgh, PA",
       "state": "PA",
       "homeValue": 228200.72829945167,
-      "monthlyRent": 1466.93079208752,
+      "monthlyRent": 1466.9307920875199,
       "propertyTaxRate": 0.0085
     },
     {
@@ -4843,7 +4843,7 @@
       "name": "Portland, ME",
       "state": "ME",
       "homeValue": 536605.0033291663,
-      "monthlyRent": 2296.092604059168,
+      "monthlyRent": 2296.0926040591676,
       "propertyTaxRate": 0.01283
     },
     {
@@ -4861,7 +4861,7 @@
       "name": "Pottsville, PA",
       "state": "PA",
       "homeValue": 179836.71145732971,
-      "monthlyRent": 1146.5477855477857,
+      "monthlyRent": 1146.5477855477855,
       "propertyTaxRate": 0.0085
     },
     {
@@ -4887,7 +4887,7 @@
       "regionId": "395005",
       "name": "Providence, RI",
       "state": "RI",
-      "homeValue": 522248.2957706853,
+      "homeValue": 522248.29577068525,
       "monthlyRent": 2166.3636270590687,
       "propertyTaxRate": 0.00859
     },
@@ -4924,7 +4924,7 @@
       "name": "Punta Gorda, FL",
       "state": "FL",
       "homeValue": 298911.643165834,
-      "monthlyRent": 1850.5432586736931,
+      "monthlyRent": 1850.5432586736933,
       "propertyTaxRate": 0.01436
     },
     {
@@ -4932,7 +4932,7 @@
       "regionId": "395010",
       "name": "Quincy, IL",
       "state": "IL",
-      "homeValue": 189198.46525034396,
+      "homeValue": 189198.46525034393,
       "monthlyRent": 1059.2870370370372,
       "propertyTaxRate": 0.01502
     },
@@ -4987,7 +4987,7 @@
       "name": "Red Wing, MN",
       "state": "MN",
       "homeValue": 321176.4475468308,
-      "monthlyRent": 1348.2666666666669,
+      "monthlyRent": 1348.2666666666667,
       "propertyTaxRate": 0.0125
     },
     {
@@ -5023,7 +5023,7 @@
       "name": "Richmond, IN",
       "state": "IN",
       "homeValue": 173654.26635676916,
-      "monthlyRent": 901.2936507936508,
+      "monthlyRent": 901.2936507936507,
       "propertyTaxRate": 0.01204
     },
     {
@@ -5040,7 +5040,7 @@
       "regionId": "395022",
       "name": "Richmond, VA",
       "state": "VA",
-      "homeValue": 392106.37297614,
+      "homeValue": 392106.37297613994,
       "monthlyRent": 1706.0463498248455,
       "propertyTaxRate": 0.00749
     },
@@ -5050,7 +5050,7 @@
       "name": "Riverside, CA",
       "state": "CA",
       "homeValue": 580321.086113742,
-      "monthlyRent": 2533.072829605408,
+      "monthlyRent": 2533.0728296054076,
       "propertyTaxRate": 0.01191
     },
     {
@@ -5068,7 +5068,7 @@
       "name": "Roanoke Rapids, NC",
       "state": "NC",
       "homeValue": 113748.68722647494,
-      "monthlyRent": 1270.8333333333337,
+      "monthlyRent": 1270.8333333333335,
       "propertyTaxRate": 0.00702
     },
     {
@@ -5140,7 +5140,7 @@
       "name": "Rome, GA",
       "state": "GA",
       "homeValue": 232905.8036780106,
-      "monthlyRent": 1267.1222222222225,
+      "monthlyRent": 1267.1222222222223,
       "propertyTaxRate": 0.00838
     },
     {
@@ -5167,7 +5167,7 @@
       "name": "Russellville, AR",
       "state": "AR",
       "homeValue": 199730.72226530508,
-      "monthlyRent": 904.7474747474748,
+      "monthlyRent": 904.7474747474747,
       "propertyTaxRate": 0.01132
     },
     {
@@ -5212,7 +5212,7 @@
       "name": "Saginaw, MI",
       "state": "MI",
       "homeValue": 175095.12185491694,
-      "monthlyRent": 1055.0027046783623,
+      "monthlyRent": 1055.0027046783625,
       "propertyTaxRate": 0.03019
     },
     {
@@ -5220,7 +5220,7 @@
       "regionId": "395048",
       "name": "Salem, OR",
       "state": "OR",
-      "homeValue": 447087.185138369,
+      "homeValue": 447087.18513836904,
       "monthlyRent": 1646.2585147804828,
       "propertyTaxRate": 0.02593
     },
@@ -5248,7 +5248,7 @@
       "name": "Salisbury, MD",
       "state": "DE",
       "homeValue": 423968.16862099967,
-      "monthlyRent": 1947.4479331915709,
+      "monthlyRent": 1947.4479331915707,
       "propertyTaxRate": 0.01184
     },
     {
@@ -5265,7 +5265,7 @@
       "regionId": "395054",
       "name": "San Angelo, TX",
       "state": "TX",
-      "homeValue": 227071.80883696605,
+      "homeValue": 227071.80883696603,
       "monthlyRent": 1319.3406926406926,
       "propertyTaxRate": 0.01346
     },
@@ -5293,7 +5293,7 @@
       "name": "San Francisco, CA",
       "state": "CA",
       "homeValue": 1120378.785815907,
-      "monthlyRent": 3444.848224550948,
+      "monthlyRent": 3444.8482245509476,
       "propertyTaxRate": 0.01191
     },
     {
@@ -5329,7 +5329,7 @@
       "name": "Sandusky, OH",
       "state": "OH",
       "homeValue": 240420.9875613059,
-      "monthlyRent": 1811.5583333333332,
+      "monthlyRent": 1811.5583333333334,
       "propertyTaxRate": 0.01025
     },
     {
@@ -5338,7 +5338,7 @@
       "name": "Sanford, NC",
       "state": "NC",
       "homeValue": 287873.4372192834,
-      "monthlyRent": 1648.817989417989,
+      "monthlyRent": 1648.8179894179893,
       "propertyTaxRate": 0.00702
     },
     {
@@ -5356,7 +5356,7 @@
       "name": "Santa Fe, NM",
       "state": "NM",
       "homeValue": 548757.3605932085,
-      "monthlyRent": 1952.520015100204,
+      "monthlyRent": 1952.5200151002039,
       "propertyTaxRate": 0.01416
     },
     {
@@ -5364,7 +5364,7 @@
       "regionId": "753917",
       "name": "Santa Maria, CA",
       "state": "CA",
-      "homeValue": 988947.6781296856,
+      "homeValue": 988947.6781296857,
       "monthlyRent": 3278.5492831960014,
       "propertyTaxRate": 0.01191
     },
@@ -5418,7 +5418,7 @@
       "regionId": "395077",
       "name": "Searcy, AR",
       "state": "AR",
-      "homeValue": 207611.51615493436,
+      "homeValue": 207611.51615493433,
       "monthlyRent": 1064.4642857142856,
       "propertyTaxRate": 0.01132
     },
@@ -5436,7 +5436,7 @@
       "regionId": "395079",
       "name": "Sebastian, FL",
       "state": "FL",
-      "homeValue": 363706.2878291613,
+      "homeValue": 363706.28782916133,
       "monthlyRent": 2128.333882783883,
       "propertyTaxRate": 0.01436
     },
@@ -5481,7 +5481,7 @@
       "regionId": "395086",
       "name": "Sevierville, TN",
       "state": "TN",
-      "homeValue": 406740.3606676754,
+      "homeValue": 406740.36066767544,
       "monthlyRent": 1730.0559640522877,
       "propertyTaxRate": 0.00581
     },
@@ -5490,7 +5490,7 @@
       "regionId": "395087",
       "name": "Seymour, IN",
       "state": "IN",
-      "homeValue": 225475.9256398832,
+      "homeValue": 225475.92563988318,
       "monthlyRent": 1341.0,
       "propertyTaxRate": 0.01204
     },
@@ -5499,7 +5499,7 @@
       "regionId": "395088",
       "name": "Shawnee, OK",
       "state": "OK",
-      "homeValue": 192694.70338691075,
+      "homeValue": 192694.70338691073,
       "monthlyRent": 1080.2188552188552,
       "propertyTaxRate": 0.01313
     },
@@ -5517,7 +5517,7 @@
       "regionId": "395090",
       "name": "Shelby, NC",
       "state": "NC",
-      "homeValue": 210557.68239801624,
+      "homeValue": 210557.68239801622,
       "monthlyRent": 1164.6068376068376,
       "propertyTaxRate": 0.00702
     },
@@ -5562,7 +5562,7 @@
       "regionId": "395095",
       "name": "Show Low, AZ",
       "state": "AZ",
-      "homeValue": 393923.823700292,
+      "homeValue": 393923.82370029204,
       "monthlyRent": 1745.2380952380952,
       "propertyTaxRate": 0.00969
     },
@@ -5580,7 +5580,7 @@
       "regionId": "395097",
       "name": "Sidney, OH",
       "state": "OH",
-      "homeValue": 246215.19689922585,
+      "homeValue": 246215.19689922582,
       "monthlyRent": 1428.4333333333334,
       "propertyTaxRate": 0.01025
     },
@@ -5607,7 +5607,7 @@
       "regionId": "395102",
       "name": "Sioux City, IA",
       "state": "IA",
-      "homeValue": 224094.27031420745,
+      "homeValue": 224094.27031420742,
       "monthlyRent": 1295.3852813852816,
       "propertyTaxRate": 0.01702
     },
@@ -5625,7 +5625,7 @@
       "regionId": "395105",
       "name": "Somerset, KY",
       "state": "KY",
-      "homeValue": 180411.0253897476,
+      "homeValue": 180411.02538974758,
       "monthlyRent": 1236.111111111111,
       "propertyTaxRate": 0.01192
     },
@@ -5661,7 +5661,7 @@
       "regionId": "395110",
       "name": "Spearfish, SD",
       "state": "SD",
-      "homeValue": 442583.8775584207,
+      "homeValue": 442583.87755842065,
       "monthlyRent": 1488.5555555555557,
       "propertyTaxRate": 0.01233
     },
@@ -5688,7 +5688,7 @@
       "regionId": "395114",
       "name": "Springfield, IL",
       "state": "IL",
-      "homeValue": 200780.7949068528,
+      "homeValue": 200780.79490685277,
       "monthlyRent": 1206.8375041708375,
       "propertyTaxRate": 0.01502
     },
@@ -5698,7 +5698,7 @@
       "name": "Springfield, MA",
       "state": "MA",
       "homeValue": 372393.8922925626,
-      "monthlyRent": 1963.127574266448,
+      "monthlyRent": 1963.1275742664477,
       "propertyTaxRate": 0.0049
     },
     {
@@ -5707,7 +5707,7 @@
       "name": "Springfield, MO",
       "state": "MO",
       "homeValue": 270545.5514095019,
-      "monthlyRent": 1250.6980042016803,
+      "monthlyRent": 1250.6980042016805,
       "propertyTaxRate": 0.01369
     },
     {
@@ -5715,7 +5715,7 @@
       "regionId": "395117",
       "name": "Springfield, OH",
       "state": "OH",
-      "homeValue": 199688.3037419245,
+      "homeValue": 199688.30374192446,
       "monthlyRent": 1198.6818783068784,
       "propertyTaxRate": 0.01025
     },
@@ -5734,7 +5734,7 @@
       "name": "St. George, UT",
       "state": "UT",
       "homeValue": 524952.8538581883,
-      "monthlyRent": 1847.7009181951653,
+      "monthlyRent": 1847.7009181951655,
       "propertyTaxRate": 0.00517
     },
     {
@@ -5761,7 +5761,7 @@
       "name": "St. Marys, GA",
       "state": "GA",
       "homeValue": 305365.521304429,
-      "monthlyRent": 1655.0707846003895,
+      "monthlyRent": 1655.0707846003897,
       "propertyTaxRate": 0.00838
     },
     {
@@ -5850,7 +5850,7 @@
       "regionId": "395133",
       "name": "Stillwater, OK",
       "state": "OK",
-      "homeValue": 241953.6912013472,
+      "homeValue": 241953.69120134716,
       "monthlyRent": 1260.5036075036076,
       "propertyTaxRate": 0.01313
     },
@@ -5868,7 +5868,7 @@
       "regionId": "395136",
       "name": "Sturgis, MI",
       "state": "MI",
-      "homeValue": 219689.42775519303,
+      "homeValue": 219689.42775519306,
       "monthlyRent": 1175.0,
       "propertyTaxRate": 0.03019
     },
@@ -5877,7 +5877,7 @@
       "regionId": "395137",
       "name": "Sulphur Springs, TX",
       "state": "TX",
-      "homeValue": 255766.83891082532,
+      "homeValue": 255766.83891082535,
       "monthlyRent": 1642.2222222222224,
       "propertyTaxRate": 0.01346
     },
@@ -5913,7 +5913,7 @@
       "regionId": "395143",
       "name": "Syracuse, NY",
       "state": "NY",
-      "homeValue": 268948.722067236,
+      "homeValue": 268948.72206723597,
       "monthlyRent": 1626.8406057258587,
       "propertyTaxRate": 0.01249
     },
@@ -5950,7 +5950,7 @@
       "name": "Tampa, FL",
       "state": "FL",
       "homeValue": 356842.80753931083,
-      "monthlyRent": 1990.9649804648047,
+      "monthlyRent": 1990.9649804648052,
       "propertyTaxRate": 0.01436
     },
     {
@@ -5985,7 +5985,7 @@
       "regionId": "753923",
       "name": "The Dalles, OR",
       "state": "OR",
-      "homeValue": 400077.6150383045,
+      "homeValue": 400077.61503830453,
       "monthlyRent": 1796.75,
       "propertyTaxRate": 0.02593
     },
@@ -6021,7 +6021,7 @@
       "regionId": "395161",
       "name": "Topeka, KS",
       "state": "KS",
-      "homeValue": 216882.5484480356,
+      "homeValue": 216882.54844803558,
       "monthlyRent": 1249.869590643275,
       "propertyTaxRate": 0.01107
     },
@@ -6093,7 +6093,7 @@
       "regionId": "395170",
       "name": "Tupelo, MS",
       "state": "MS",
-      "homeValue": 192899.9455251025,
+      "homeValue": 192899.94552510246,
       "monthlyRent": 1301.22792022792,
       "propertyTaxRate": 0.01269
     },
@@ -6102,7 +6102,7 @@
       "regionId": "395171",
       "name": "Tuscaloosa, AL",
       "state": "AL",
-      "homeValue": 238644.3797743076,
+      "homeValue": 238644.37977430757,
       "monthlyRent": 1667.501136363636,
       "propertyTaxRate": 0.0054
     },
@@ -6111,7 +6111,7 @@
       "regionId": "395173",
       "name": "Twin Falls, ID",
       "state": "ID",
-      "homeValue": 383134.0230055908,
+      "homeValue": 383134.02300559083,
       "monthlyRent": 1558.841888083736,
       "propertyTaxRate": 0.00611
     },
@@ -6129,7 +6129,7 @@
       "regionId": "395175",
       "name": "Ukiah, CA",
       "state": "CA",
-      "homeValue": 480686.8773791592,
+      "homeValue": 480686.87737915915,
       "monthlyRent": 1903.4722222222224,
       "propertyTaxRate": 0.01191
     },
@@ -6192,7 +6192,7 @@
       "regionId": "395190",
       "name": "Victoria, TX",
       "state": "TX",
-      "homeValue": 220044.9224506461,
+      "homeValue": 220044.92245064606,
       "monthlyRent": 1168.642676767677,
       "propertyTaxRate": 0.01346
     },
@@ -6202,7 +6202,7 @@
       "name": "Vineland, NJ",
       "state": "NJ",
       "homeValue": 273042.62308754824,
-      "monthlyRent": 1648.809523809524,
+      "monthlyRent": 1648.8095238095239,
       "propertyTaxRate": 0.02124
     },
     {
@@ -6210,7 +6210,7 @@
       "regionId": "395194",
       "name": "Virginia Beach, VA",
       "state": "VA",
-      "homeValue": 371181.3290473425,
+      "homeValue": 371181.32904734253,
       "monthlyRent": 1885.7769987948457,
       "propertyTaxRate": 0.00749
     },
@@ -6237,7 +6237,7 @@
       "regionId": "395198",
       "name": "Wahpeton, ND",
       "state": "ND",
-      "homeValue": 227868.1564624624,
+      "homeValue": 227868.15646246236,
       "monthlyRent": 844.1666666666666,
       "propertyTaxRate": 0.01224
     },
@@ -6264,7 +6264,7 @@
       "regionId": "395202",
       "name": "Warner Robins, GA",
       "state": "GA",
-      "homeValue": 254073.5213976357,
+      "homeValue": 254073.52139763572,
       "monthlyRent": 1504.5844656789693,
       "propertyTaxRate": 0.00838
     },
@@ -6345,7 +6345,7 @@
       "regionId": "395212",
       "name": "Watertown, WI",
       "state": "WI",
-      "homeValue": 369347.9097896724,
+      "homeValue": 369347.90978967235,
       "monthlyRent": 1315.0555555555557,
       "propertyTaxRate": 0.01781
     },
@@ -6381,7 +6381,7 @@
       "regionId": "395218",
       "name": "Wenatchee, WA",
       "state": "WA",
-      "homeValue": 517597.50931688,
+      "homeValue": 517597.50931687996,
       "monthlyRent": 1756.2819327731092,
       "propertyTaxRate": 0.00768
     },
@@ -6400,7 +6400,7 @@
       "name": "Whitewater, WI",
       "state": "WI",
       "homeValue": 405535.346459532,
-      "monthlyRent": 1785.9126984126983,
+      "monthlyRent": 1785.9126984126985,
       "propertyTaxRate": 0.01781
     },
     {
@@ -6481,7 +6481,7 @@
       "name": "Winchester, VA",
       "state": "VA",
       "homeValue": 384628.7105334822,
-      "monthlyRent": 1825.4285892767905,
+      "monthlyRent": 1825.4285892767903,
       "propertyTaxRate": 0.00749
     },
     {
@@ -6516,7 +6516,7 @@
       "regionId": "395238",
       "name": "Worcester, MA",
       "state": "MA",
-      "homeValue": 476550.5301947335,
+      "homeValue": 476550.53019473347,
       "monthlyRent": 2105.2464329540385,
       "propertyTaxRate": 0.0049
     },
@@ -6579,7 +6579,7 @@
       "regionId": "395248",
       "name": "Zanesville, OH",
       "state": "OH",
-      "homeValue": 211114.2742682557,
+      "homeValue": 211114.27426825566,
       "monthlyRent": 1050.5555555555554,
       "propertyTaxRate": 0.01025
     }
